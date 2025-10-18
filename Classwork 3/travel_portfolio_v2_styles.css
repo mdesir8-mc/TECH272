@@ -6,7 +6,7 @@
     --color2-bg1: #EBEBD3;
     --color3-tx2: #306B34;
     --color4-bg2: #804f73;
-    --color5-idk: #C490D1;
+    --color5-idk: #D7B3DF;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -25,18 +25,48 @@ nav {
 .btn1 {
     padding: 20px;
     border-radius: 50px;
+	background-color: var(--color2-bg1);
     a {
-    color: var(--color3-tx1);
+    color: var(--color1-tx1);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     }
     &:hover {
-        background-color: var(--color3-tx2);
+        background-color: var(--color1-tx1);
         color: var(--color2-bg1);
         a {
         color: var(--color2-bg1)
     }
     }
+}
+
+.btn2 {
+    padding: 20px;
+    border-radius: 50px;
+	background-color: var(--color1-tx1);
+    a {
+    color: var(--color2-bg1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    }
+    &:hover {
+        background-color: var(--color5-idk);
+        color: var(--color2-bg1);
+        a {
+        color: var(--color1-tx1);
+		font-style: italic;
+    }
+    }
+}
+
+.links-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 40px 0;
+  text-align: center;
 }
 
 .destinations {

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+    --color1-tx1: #083D77;
+    --color2-bg1: #EBEBD3;
+    --color3-tx2: #306B34;
+    --color4-bg2: #804f73;
+    --color5-idk: #C490D1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+
+    button {
+        border-radius: 50px;
+        background-color: var(--color2-bg1);
+
+        
+    }
+}
+
+.btn1 {
+    padding: 20px;
+    border-radius: 50px;
+    a {
+    color: var(--color3-tx1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    }
+    &:hover {
+        background-color: var(--color3-tx2);
+        color: var(--color2-bg1);
+        a {
+        color: var(--color2-bg1)
+    }
+    }
+}
+
+.destinations {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 55%;
+    padding: 20px;
+    text-align: center;
+  }
+
+header {
+    background-color: var(--color4-bg2);
+    color: var(--color2-bg1);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: var(--color2-bg1);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.gallery img {
+  height: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.subscribe-section label {
+  font-weight: bold;
+}
+
+.subscribe-section input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 220px;
+}
+
+.subscribe-section button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+	
+	&:hover {
+		background-color: darkgreen;
+	}
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Travel Portfolio (w/ flexbox)</title>
+  <link rel="stylesheet" href="travel_portfolio_v2_styles.css">
+</head>
+<body>
+  <header>
+    <h1>Michael Desir's Travel Portfolio</h1>
+  </header>
+
+  <nav>
+    <button class="btn1"><a href="#destinations" class="btn">Destinations</a></button>
+    <button class="btn1"><a href="#favorites" class="btn">Favorites</a></button>
+    <button class="btn1"><a href="#contact" class="btn">Contact</a></button>
+  </nav>
+
+  <div class="destinations" id="destinations">
+    <div class="box">
+      <h3>Click on an image to learn more</h3>
+      <div class="gallery">
+        <div>
+          <a href="https://visitmyrtlebeach.com" target="_blank">
+            <img alt="Picture of Myrtle Beach" src="https://www.visitmyrtlebeach.com/sites/default/files/2024-08/myrtlebeach-oceanfront.jpg">
+          </a>
+          <h4>Myrtle Beach, SC</h4>
+        </div>
+
+        <div>
+          <a href="https://www.visitarizona.com/places/cities/phoenix" target="_blank">
+            <img alt="Picture of Phoenix, AZ" src="https://cdn.prod.website-files.com/683a4969614808c01cd0d378/683a4e53cca84f4da811a40b_Phoenix-cityscape_b2b0b89039603b931027eb2900b66531.jpg">
+          </a>
+          <h4>Phoenix, AZ</h4>
+        </div>
+
+        <div>
+          <a href="https://www.nyctourism.com/new-york/manhattan/" target="_blank">
+            <img alt="Overhead view of Manhattan, New York" src="https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?q=80&w=2070&auto=format&fit=crop">
+          </a>
+          <h4>Manhattan, New York</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="gallery">
+        <div>
+          <a href="https://www.visitsacramento.com/" target="_blank">
+            <img alt="Picture of Sacramento, CA" src="https://www.premierhomesca.com/wp-content/uploads/2020/09/5-Reasons-To-Move-Sacramento-From-Bay-Area-scaled.jpeg">
+          </a>
+          <h4>Sacramento, CA</h4>
+        </div>
+
+        <div>
+          <a href="https://www.visitwilliamsburg.com/things-to-do/museums-and-attractions/history/" target="_blank">
+            <img alt="Picture of Williamsburg, VA" src="https://www.vahistoryroadtrip.com/img/D2019-WR-0610-1012-web.png">
+          </a>
+          <h4>Williamsburg, VA</h4>
+        </div>
+
+        <div>
+          <a href="https://www.visittheusa.com/destination/cincinnati" target="_blank">
+            <img alt="Picture of Cincinnati, OH" src="https://www.extraspace.com/blog/wp-content/uploads/2019/05/things-know-living-cincinnati-oh.jpg.webp">
+          </a>
+          <h4>Cincinnati, OH</h4>
+        </div>
+
+        <div>
+          <a href="https://www.visittheusa.com/experience/milwaukee-cultural-corridors-art-dining" target="_blank">
+            <img alt="Picture of Milwaukee, WI" src="https://www.extraspace.com/wp-content/uploads/2019/10/living-in-milwaukee.jpg">
+          </a>
+          <h4>Milwaukee, WI</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="favorites">
+    <h3>My favorite vacation spots are...</h3>
+    <ol>
+      <li><h4>Myrtle Beach</h4></li>
+      <ul>
+        <li>Seafood!</li>
+        <li>Warm sand!</li>
+        <li>The ocean breeze!</li>
+      </ul>
+      <li><h4>New York</h4></li>
+      <ul>
+        <li>Food!</li>
+        <li>Fashion!</li>
+        <li>The coolest pictures!</li>
+      </ul>
+      <li><h4>Phoenix</h4></li>
+      <ul>
+        <li>Dry heat!</li>
+        <li>Cool mesa architecture!</li>
+        <li>An OK rookie QB!</li>
+      </ul>
+    </ol>
+  </div>
+
+  <!-- Stay in touch form (Flexbox layout) -->
+  <div class="subscribe-section" id="contact">
+	  <form class="subscribe-section">
+	  	<label for="email">Stay in touch:</label>
+    	<input type="email" id="email" name="email" placeholder="you@example.com" required>
+    	<button type="submit">Subscribe</button>
+	  </form>
+  </div>
+
+</body>
+</html>

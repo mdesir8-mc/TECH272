@@ -121,8 +121,13 @@ input {
 }
 
 @media (max-width: 900px) { /*TABLET*/
+	:root {
+		font-size: 16px;
+	}
+	
 	nav {
 		flex-direction: column;
+		gap: 20px;
 	}
 	
 	.main-section {
@@ -145,5 +150,7 @@ input {
 	
 	.main-section {
 		background: #EED9C4;
+		padding: 15px;
+		border-radius: 10px;
 	}
 }

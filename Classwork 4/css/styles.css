@@ -146,10 +146,11 @@ input {
 @media (max-width: 500px) { /*MOBILE*/
 	:root {
 		font-size: 14px;
+		background: #EED9C4;
 	}
 	
 	.main-section {
-		background: #EED9C4;
+		background: var(--color2-bg1);
 		padding: 15px;
 		border-radius: 10px;
 	}

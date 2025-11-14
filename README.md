@@ -1,4 +1,4 @@
-# TECH272
+# TECH272 Web Development Projects
 Classwork done for TECH272 - Web Development - Montgomery College
 
 [Classwork 1](https://mdesir8-mc.github.io/TECH272/Classwork1.html)

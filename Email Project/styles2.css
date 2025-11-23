@@ -1,0 +1,102 @@
+/* CSS Document */
+
+:root {
+	background-color: black;
+	font-family: Comic Sans MS, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+body {
+	display: flex;
+	margin: 10px 15%;
+	padding: 10px;
+	background-color: lightgrey;
+	flex-direction: column;
+}
+
+h4 {
+	font-family: Calibri;
+}
+
+p {
+	color: #2C226C;
+}
+hr {
+	width: 100%;
+}
+
+header {
+	margin: 15px;
+}
+
+footer {
+	color: grey;
+	margin: 15px;
+}
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-section {
+	display: flex;
+	margin: 10px;
+	flex-direction: column;
+}
+.media-section {
+	display: flex;
+	justify-content: center;
+	height: 80vh;
+	margin: 10px;
+}
+
+.message {
+	margin: 30px 50px;
+	font-size: 1.2rem;
+}
+
+.video-section {
+	display: flex;
+	justify-content: center;
+	height: 80vh;
+	margin: 10px 5px;
+	padding: 0px;
+}
+
+.video {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	video {
+		width: 90%;
+		height: 100%;
+	}
+	margin: 5px auto;
+}
+
+figure {
+	width: 30%;
+	max-height: 600px;
+}
+
+@media (max-width: 1150px) {
+	.video-section {
+		flex-direction: column;
+		height: 80%;
+	}
+	.media-section {
+		height: 60%;
+	}
+}
+
+@media (max-width: 900px) {
+	.media-section {
+		flex-direction: column;
+		height: 60%;
+		align-items: center;
+	}
+	
+	.video-section {
+		flex-direction: column;
+		height: 80%;
+		align-items: center;
+	}
+}
